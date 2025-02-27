@@ -17,6 +17,7 @@ public class Tests
     [TestCase(2, 2, 4)]
     [TestCase(9, 9, 18)]
     [TestCase(19, 1, 20)]
+    [TestCase(1, 1, 2)]
     public void AddingTests(int a, int b, int result)
     {
         AddingService addingService = new();        
